@@ -1,0 +1,70 @@
+@import "./normalize.css";
+
+:root {
+  /* 背景色 */
+  --high-bg-color: rgba(255, 101, 0);
+  /* 白色背景 */
+  --bg-color: #fff;
+  /* 白色文字 */
+  --text-color: #fff;
+  /* 高亮文字 */
+  --text-high-color: rgba(255, 102, 0, .9);
+  /* 高亮文字 */
+  --divider-bg-color: #f6f6f6;
+}
+
+img{
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #666666;
+  background: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.clear-fix:after {
+  font-size: 0;
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+}
+
+.arrow-right {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-left: 0.1rem;
+  transform: rotate(135deg);
+  border-top: 1px solid #999999;
+  border-left: 1px solid #999999;
+  background-color: transparent;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
